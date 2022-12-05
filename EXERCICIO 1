@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/12/2022
+Var
+// Seção de Declarações das variáveis 
+VELO : REAL
+CAR  : REAL
+NUMERO : REAL
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ESCREVAL("SUA VELOCIDADE FOI DE ")
+LEIA (VELO)
+SE VELO > 80 ENTÃO
+ESCREVAL (" VOCE FOI MULTADO EM ")
+CAR <- 5 * (VELO - 80)
+ESCREVAL(CAR)
+FIMSE
+Fimalgoritmo
