@@ -1,0 +1,20 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/12/2022
+Var
+// Seção de Declarações das variáveis 
+KM: REAL
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ESCREVAL ("QUANTOS QUILOMETROS TU QUERES PRECORRER?")
+LEIA(KM)
+SE KM <= 200 ENTÃO
+ESCREVAL ("VALOR DE SUA PASSAGEM É ", KM*0.50,"R$")
+SENÃO
+ESCREVAL ("VALOR DE SUA PASSAGEM É ", KM*0.45,"R$")
+FIMSE
+Fimalgoritmo
